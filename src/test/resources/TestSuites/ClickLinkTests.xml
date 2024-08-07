@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ClickLinkTests" verbose="1" >
+    <test name="ActorsLinkTest">
+        <classes>
+            <class name="com.sakila_selenium.StarterTests" />
+        </classes>
+    </test>
+
+    <test name="NavBarTests">
+        <classes>
+            <class name="com.sakila_selenium.NavBarTests" />
+        </classes>
+    </test>
+
+<!--    <test name="FilmsLinkTest">-->
+<!--        <classes>-->
+<!--            <class name="com.sakila_selenium.StarterTests" />-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
